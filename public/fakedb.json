@@ -1,0 +1,50 @@
+[
+    {
+      "id": "623f0ab9905f40a84de7ce7b",
+      "image": "images/burger.jpg",
+      "price": 414,
+      "name": "BURGER"
+    },
+    {
+      "id": "623f0ab99aa2b8443b79f04a",
+      "image": "images/biriyani.jpg",
+      "price": 396,
+      "name": "BIRIYANI"
+    },
+    {
+      "id": "623f0ab951d6761d4da14157",
+      "image": "images/egg.jpg",
+      "price": 172,
+      "name": "DIMER TORKARI"
+    },
+    {
+      "id": "623f0ab9cc8734c2bac41da0",
+      "image": "images/ilish.jpg",
+      "price": 278,
+      "name": "SORSHE ILISH"
+    },
+    {
+      "id": "623f0ab9ff5fc99b0d7c2c01",
+      "image": "images/khichuri.webp",
+      "price": 157,
+      "name": "KHICHURI"
+    },
+    {
+      "id": "623f0ab94731757d9e33c611",
+      "image": "images/mutton.jpg",
+      "price": 191,
+      "name": "MUTTON"
+    },
+    {
+      "id": "623f0ab907f0b3c0e2be380c",
+      "image": "images/sandwich.jpg",
+      "price": 368,
+      "name": "SANDWICH"
+    },
+    {
+      "id": "623f0ab9213ff1143c8e33be",
+      "image": "images/icecreame.jpg",
+      "price": 102,
+      "name": "ICE CREAM"
+    }
+  ]
