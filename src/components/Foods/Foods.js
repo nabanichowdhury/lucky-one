@@ -5,7 +5,7 @@ import "./Foods.css"
 
 const Foods = () => {
     const[foods,setFoods]=useState([])
-    const[choice,setChoice]=useState([])
+    let[choice,setChoice]=useState([])
     useEffect(()=>{
         fetch("fakedb.json")
         .then(res=>res.json())
@@ -15,13 +15,10 @@ const Foods = () => {
     
         const addToChoice =(food)=>{
             console.log("clicked",food)
-            const newChoice=[...choice,food]
+            let newChoice=[...choice,food]
             setChoice(newChoice)}
 
-        const chooseRandom=()=>{
-           const randomChoice=Math.floor(Math.random()*choice.length)
-           console.log(randomChoice)
-        }
+       
     
     
 
