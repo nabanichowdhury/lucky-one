@@ -1,11 +1,23 @@
 import React from 'react'; 
 import "./Food.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Food = (props) => {
-    const {image}=props.food
+
+    const{food,addToChoice}=props
+    const {image,name,price,id}=props.food
+    
     return (
         <div className='food'>
-            <img src={image} alt="" />
+            <div><img src={image} alt="" /></div>
+            <div>
+                <p className='food-name'>Name:{name}</p>
+                <p>Price:{price}</p>
+                <p>Food Id:{id}</p>
+                <button onClick={()=>addToChoice(food)}>Choose your favourite</button>
+                <FontAwesomeIcon icon={faShoppingCart} />
+            </div>
         </div>
     );
 };

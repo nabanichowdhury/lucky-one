@@ -1,3 +1,10 @@
 .food img{
     width: 300px;
+    height: 250px;
+    border-radius: 4px;
+    
+}
+.food{
+    border: 2px solid lightgray;
+    border-radius: 9px;
 }

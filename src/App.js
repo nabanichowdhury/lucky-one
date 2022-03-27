@@ -4,8 +4,8 @@ import Foods from './components/Foods/Foods';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+
      <Foods></Foods>
     </div>
   );

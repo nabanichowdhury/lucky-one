@@ -1,5 +1,5 @@
-[
-    {
+
+    [{
       "id": "623f0ab9905f40a84de7ce7b",
       "image": "images/burger.jpg",
       "price": 414,
@@ -46,5 +46,5 @@
       "image": "images/icecreame.jpg",
       "price": 102,
       "name": "ICE CREAM"
-    }
-  ]
+    }]
+  
