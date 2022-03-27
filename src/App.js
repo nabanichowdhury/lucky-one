@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import Foods from './components/Foods/Foods';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
-
+     <Header></Header>
      <Foods></Foods>
     </div>
   );

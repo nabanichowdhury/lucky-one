@@ -1,0 +1,28 @@
+.choice{
+    background-color: rgb(252, 211, 162);
+    border-radius: 10px;
+    padding: 5px;
+}
+.choose-container{
+    position: sticky;
+}
+.btn-random,.btn-remove{
+    background-color: rgb(252, 204, 115);
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 4px;
+
+}
+.btn-remove:hover{
+    background-color: rgb(252, 192, 82);
+}
+.btn-random:hover{
+    background-color: rgb(252, 192, 82);
+}
+.choose{
+    background-color: rgb(255, 184, 51);
+    padding: 20px;
+    border-radius: 20px;
+}

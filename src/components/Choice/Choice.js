@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import "./Choice.css"
 
 const Choice = (props) => {
     const {choice,removeALL}=props
     let randomChoice;
     // let foodName;
     const [select,setSelect]=useState(" ")
+    
     const chooseRandom=()=>{
         randomChoice=Math.floor(Math.random()*choice.length)
         console.log(randomChoice)
@@ -19,21 +21,21 @@ const Choice = (props) => {
 
 
     return (
-        <div>
+        <div className='choice'>
              <div className='choose-container'>
-                <h2>Choose your food</h2>
+                <h2 className='choose'>Choose your food</h2>
                 <h5>selected items:{choice.length}</h5>
                <h5>{
                choice.map(item=><h3>Name:{item.name}</h3>)
 
                
                }</h5>
-               <button onClick={chooseRandom}>Choose one for me</button>
+               <button className='btn-random' onClick={chooseRandom}>Choose one for me</button>
                
                
-               <button onClick={removeALL }>Choose again</button>
+               <button className='btn-remove' onClick={removeALL }>Choose again</button>
 
-               <h5>{select}</h5>
+               <h2>{select}</h2>
     
             
 

@@ -15,8 +15,9 @@ const Food = (props) => {
                 <p className='food-name'>Name:{name}</p>
                 <p>Price:{price}</p>
                 <p>Food Id:{id}</p>
-                <button onClick={()=>addToChoice(food)}>Choose your favourite</button>
-                <FontAwesomeIcon icon={faShoppingCart} />
+                <button className='btn-add' onClick={()=>addToChoice(food)}>Choose your favourite
+                <FontAwesomeIcon icon={faShoppingCart} /></button>
+                
             </div>
         </div>
     );
