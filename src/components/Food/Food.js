@@ -14,7 +14,7 @@ const Food = (props) => {
             <div>
                 <p className='food-name'>Name:{name}</p>
                 <p>Price:{price}</p>
-                <p>Food Id:{id}</p>
+                <p><small>Food Id:{id}</small></p>
                 <button className='btn-add' onClick={()=>addToChoice(food)}>Choose your favourite
                 <FontAwesomeIcon icon={faShoppingCart} /></button>
                 
