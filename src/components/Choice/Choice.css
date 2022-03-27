@@ -27,3 +27,10 @@
     padding: 20px;
     border-radius: 20px;
 }
+
+@media only screen and (max-width:688px){
+    .choose-container{
+        position: sticky;
+        top:0;
+    } 
+}
