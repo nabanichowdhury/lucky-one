@@ -1,3 +1,4 @@
+import { setSelectionRange } from '@testing-library/user-event/dist/utils';
 import React, { useEffect, useState } from 'react';
 import Choice from '../Choice/Choice';
 import Food from '../Food/Food';
@@ -17,8 +18,12 @@ const Foods = () => {
             console.log("clicked",food)
             let newChoice=[...choice,food]
             setChoice(newChoice)}
+        
 
-       
+       const removeALL=()=>{
+           setChoice([])
+           
+       }   
     
     
 
@@ -40,6 +45,7 @@ const Foods = () => {
            <Choice
            addToChoice={addToChoice}
            choice={choice}
+           removeALL={removeALL}
            ></Choice> 
            
         </div>
