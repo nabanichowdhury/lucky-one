@@ -8,3 +8,10 @@
     color: beige;
     text-align: center;
 }
+
+@media only screen and (max-width:688px){
+    .nav-bar{
+        width: 100%;
+        overflow: hidden;
+    }
+}

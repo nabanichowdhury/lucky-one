@@ -20,10 +20,7 @@ const Foods = () => {
             setChoice(newChoice)}
         
 
-       const removeALL=()=>{
-           setChoice([])
-           
-       }   
+       
     
     
 
@@ -45,7 +42,8 @@ const Foods = () => {
            <Choice
            addToChoice={addToChoice}
            choice={choice}
-           removeALL={removeALL}
+           
+           setChoice={setChoice}
            ></Choice> 
            
         </div>

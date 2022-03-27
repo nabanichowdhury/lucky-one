@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import "./Choice.css"
 
 const Choice = (props) => {
-    const {choice,removeALL}=props
+    const {choice,setChoice}=props
     let randomChoice;
-    // let foodName;
+    
     const [select,setSelect]=useState(" ")
     
     const chooseRandom=()=>{
@@ -14,6 +14,11 @@ const Choice = (props) => {
         setSelect(randomlyChoosen)
         console.log(randomlyChoosen)
         
+}
+const removeALL=()=>{
+    setChoice([])
+    setSelect(" ")
+    
 }
 
 

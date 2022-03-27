@@ -5,6 +5,7 @@
 }
 .choose-container{
     position: sticky;
+    top:0;
 }
 .btn-random,.btn-remove{
     background-color: rgb(252, 204, 115);

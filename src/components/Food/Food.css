@@ -19,3 +19,14 @@
 .btn-add:hover{
     background-color: rgb(233, 164, 61);
 }
+@media only screen and (max-width:688px){
+    .food img{
+        width: 120px;
+        height: 100px;
+        border-radius: 4px;
+        
+    } 
+    .food{
+        width: 130px;
+    }
+}
